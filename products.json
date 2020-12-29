@@ -3,65 +3,65 @@
     {
       "sys": { "id": "1" },
       "fields": {
-        "title": "queen panel bed",
+        "title": "Parfum ",
         "price": 10.99,
-        "image": { "fields": { "file": { "url": "four.jpeg" } } }
+        "image": { "fields": { "file": { "url": "four.jpg" } } }
       }
     },
     {
       "sys": { "id": "2" },
       "fields": {
-        "title": "king panel bed",
+        "title": "Face Creme",
         "price": 12.99,
-        "image": { "fields": { "file": { "url": "four.jpeg" } } }
+        "image": { "fields": { "file": { "url": "four.jpg"  } } }
       }
     },
     {
       "sys": { "id": "3" },
       "fields": {
-        "title": "single panel bed",
+        "title": "Eau de toilette",
         "price": 12.99,
-        "image": { "fields": { "file": { "url": "four.jpeg" } } }
+        "image": { "fields": { "file": { "url": "four.jpg" } } }
       }
     },
     {
       "sys": { "id": "4" },
       "fields": {
-        "title": "twin panel bed",
+        "title": "Moisturizer",
         "price": 22.99,
-        "image": { "fields": { "file": { "url": "four.jpeg" } } }
+        "image": { "fields": { "file": { "url": "four.jpg"  } } }
       }
     },
     {
       "sys": { "id": "5" },
       "fields": {
-        "title": "fridge",
+        "title": "Oil",
         "price": 88.99,
-        "image": { "fields": { "file": { "url": "four.jpeg" } } }
+        "image": { "fields": { "file": { "url": "four.jpg"  } } }
       }
     },
     {
       "sys": { "id": "6" },
       "fields": {
-        "title": "dresser",
+        "title": "Lipstick",
         "price": 32.99,
-        "image": { "fields": { "file": { "url": "four.jpeg" } } }
+        "image": { "fields": { "file": { "url": "four.jpg" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "fields": {
-        "title": "couch",
+        "title": "Handcreme",
         "price": 45.99,
-        "image": { "fields": { "file": { "url": "four.jpeg" } } }
+        "image": { "fields": { "file": { "url": "four.jpg"  } } }
       }
     },
     {
       "sys": { "id": "8" },
       "fields": {
-        "title": "table",
+        "title": "Soap",
         "price": 33.99,
-        "image": { "fields": { "file": { "url":"four.jpeg" } } }
+        "image": { "fields": { "file": { "url":"four.jpg"  } } }
       }
     }
   ]
