@@ -4,34 +4,34 @@
       "sys": { "id": "1" },
       "page": "sun.html",
       "fields": {
-        "title": "Parfum ",
-        "price": 10.99,
-        "image": { "fields": { "file": { "url": "four.jpg" } } }
+        "title": "Face Oil",
+        "price": 15.99,
+        "image": { "fields": { "file": { "url": "one.jpg" } } }
       }
     },
     {
       "sys": { "id": "2" },
       "page": "sun.html",
       "fields": {
-        "title": "Face Creme",
+        "title": "Cleansing Oil",
         "price": 12.99,
-        "image": { "fields": { "file": { "url": "four.jpg"  } } }
+        "image": { "fields": { "file": { "url": "two.jpg"  } } }
       }
     },
     {
       "sys": { "id": "3" },
       "page": "sun.html",
       "fields": {
-        "title": "Eau de toilette",
+        "title": "Lip Balm",
         "price": 12.99,
-        "image": { "fields": { "file": { "url": "four.jpg" } } }
+        "image": { "fields": { "file": { "url": "three.jpg" } } }
       }
     },
     {
       "sys": { "id": "4" },
       "page": "sun.html",
       "fields": {
-        "title": "Moisturizer",
+        "title": "Body Oil",
         "price": 22.99,
         "image": { "fields": { "file": { "url": "four.jpg"  } } }
       }
@@ -40,36 +40,36 @@
       "sys": { "id": "5" },
       "page": "sun.html",
       "fields": {
-        "title": "Oil",
+        "title": "HAir Oil",
         "price": 88.99,
-        "image": { "fields": { "file": { "url": "four.jpg"  } } }
+        "image": { "fields": { "file": { "url": "five.jpg"  } } }
       }
     },
     {
       "sys": { "id": "6" },
       "page": "sun.html",
       "fields": {
-        "title": "Lipstick",
+        "title": "Shave Oil",
         "price": 32.99,
-        "image": { "fields": { "file": { "url": "four.jpg" } } }
+        "image": { "fields": { "file": { "url": "six.jpg" } } }
       }
     },
     {
       "sys": { "id": "7" },
       "page": "sun.html",
       "fields": {
-        "title": "Handcreme",
+        "title": "Kits for Him",
         "price": 45.99,
-        "image": { "fields": { "file": { "url": "four.jpg"  } } }
+        "image": { "fields": { "file": { "url": "seven.jpg"  } } }
       }
     },
     {
       "sys": { "id": "8" },
       "page": "sun.html",
       "fields": {
-        "title": "Soap",
+        "title": "Kits for Her",
         "price": 33.99,
-        "image": { "fields": { "file": { "url":"four.jpg"  } } }
+        "image": { "fields": { "file": { "url":"seven.jpg"  } } }
       }
     }
   ]

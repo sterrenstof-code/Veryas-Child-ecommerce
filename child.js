@@ -4,10 +4,8 @@ $(window).on("scroll", function() {
     if($(window).scrollTop() > 83) {
         $(".header").addClass("active");
         $(".header").css("background-color","rgb(63, 69, 54)");
-        
         $(".title a").css("color","white");
         $(".header-left a").css("color","white");
-       
         $(".header").css("border-bottom","1px solid rgb(255, 251, 252)");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
