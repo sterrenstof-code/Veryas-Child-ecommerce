@@ -376,6 +376,8 @@ html {
 /* all page */
 
 .filter-div {
+    position: relative;
+    top: 5rem;
     height: 200px;
     width: 100%;
     border-left: 1px solid rgb(255, 251, 252);
@@ -663,8 +665,8 @@ main {
   position: absolute;
   top: 70%;
   right: 0;
-  background: var(--primaryColor);
-  border: none;
+  background-color: rgba(0, 0, 0, 0.171);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.171);
   text-transform: uppercase;
   padding: 0.5rem 0.75rem;
   letter-spacing: var(--mainSpacing);
@@ -675,6 +677,7 @@ main {
 }
 .bag-btn:hover {
   color: var(--mainWhite);
+  background: var(--primaryColor);
 }
 .fa-shopping-cart {
   margin-right: 0.5rem;

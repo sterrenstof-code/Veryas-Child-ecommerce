@@ -4,10 +4,10 @@ $(window).on("scroll", function() {
     if($(window).scrollTop() > 83) {
         $(".header").addClass("active");
         $(".header").css("background-color","rgb(63, 69, 54)");
-        $(".cart").css("background-color","rgb(63, 69, 54)");
+        
         $(".title a").css("color","white");
         $(".header-left a").css("color","white");
-        $("#cart").css("color","white");
+       
         $(".header").css("border-bottom","1px solid rgb(255, 251, 252)");
     } else {
         //remove the background property so it comes transparent again (defined in your css)
@@ -243,7 +243,7 @@ let carts = [
 
 const cartBtn = document.querySelector("#cart");
 const closeCartBtn = document.querySelector(".fa-window-close");
-const clearCartBtn = document.querySelector(".remove-item");
+const clearCartBtn = document.querySelector(".clear-cart");
 const cartDOM = document.querySelector(".cart");
 const cartOverlay =  document.querySelector(".cart-overlay");
 const cartItems = document.querySelector(".header-right-number");
