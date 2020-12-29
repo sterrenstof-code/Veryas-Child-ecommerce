@@ -259,8 +259,7 @@ class Products {
       })
       return products;
     } catch (error){
-      console.log(error);
-      
+      console.log(error); 
     }
   }
 }
@@ -272,7 +271,9 @@ class UI {
     let result = "";
     products.forEach(product => {
       result += `
-        <article class="product">
+        <article class="product" id="andereOne">
+        <p>${product.title}</p>
+        <p>${product.price}</p>
           <div class="img-container">
           <a href="${product.page}">
             <img
@@ -286,8 +287,7 @@ class UI {
               add to Cart
             </button>
           </div>
-          <h3>${product.title}</h3>
-          <h4>${product.price}</h4>
+         
         </article> 
       `
     ;
