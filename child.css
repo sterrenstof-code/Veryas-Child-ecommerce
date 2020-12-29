@@ -1720,25 +1720,19 @@ footer {
     .footer .col ul li {
       font-size: 13px;
     }
-
-
 }
 
 @media only screen and (max-width: 340px) {
     .footer .col {
       width: 100%;
     }
-
-   
-
-  }
   .products {
     padding: 4rem 0;
   }
  
   .products-center {
     width: 90vw;
-    margin: 0 auto;
+    margin: 5rem auto;
     max-width: 1170px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -1787,7 +1781,7 @@ footer {
     font-size: 10px;
     font-size: 10px;
     color: rgb(63, 69, 54);
-    margin-top: 1rem;
+    margin: 1rem 0;
     letter-spacing: var(--mainSpacing);
     text-align: left;
   }
