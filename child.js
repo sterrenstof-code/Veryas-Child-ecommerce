@@ -17,20 +17,6 @@ $(window).on("scroll", function() {
 
 // slide in menu
 
-const shop = document.querySelector("#face");
-
-if(shop){
-  shop.addEventListener("click", function () {
-    const slider = document.querySelector(".slide");
-     if (slider.classList.contains("slided")) {
-       slider.classList.remove("slided");
-     } else {
-       slider.classList.add("slided");
-     }
-   
-   });
-}
-
 /*
 // progress bar 
 
@@ -113,6 +99,7 @@ function scrollAppear(){
 window.addEventListener("scroll",scrollAppear);
 
 /*
+
 // filter page
 
 let carts = [
@@ -236,7 +223,7 @@ let carts = [
     
     sectionCenter.innerHTML = displayMenu; 
   }
-  */
+ 
 /* shopping cart */
 
 //show cart when clicked
@@ -269,6 +256,7 @@ class Products {
         const {title,price} = item.fields;
         const {id} = item.sys;
         const image = item.fields.image.fields.file.url;
+        const page = item.page;
         return {title, price, id, image};
       })
       return products;
@@ -288,11 +276,13 @@ class UI {
       result += `
         <article class="product">
           <div class="img-container">
+          <a href="${product.page}">
             <img
               src=${product.image}
               alt="product"
               class="product-img"
             />
+            </a>
             <button class="bag-btn" data-id=${product.id}>
               <i class="fas fa-shopping-cart"></i>
               add to Cart
@@ -305,7 +295,8 @@ class UI {
     ;
     });
     productsDom.innerHTML = result; 
-  }
+  } 
+
   getBagButtons(){
     const buttons = [...document.querySelectorAll(".bag-btn")];
     buttonsDOM = buttons;
@@ -317,7 +308,7 @@ class UI {
         button.disabled = true;
       } 
         button.addEventListener("click", (event)=>{
-          console.log(event);
+        
          event.target.innerText = "In Cart";
          event.target.disabled = true;
          // get product from products
@@ -398,7 +389,7 @@ class UI {
       else if (event.target.classList.contains("fa-chevron-up")){
         let addAmount = event.target;
         let id = addAmount.dataset.id;
-        console.log(id)
+        
         let tempItem = cart.find(item => item.id === id);
         tempItem.amount = tempItem.amount + 1;
         Storage.saveCart(cart);
