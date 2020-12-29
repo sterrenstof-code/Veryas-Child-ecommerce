@@ -257,7 +257,7 @@ class Products {
         const {id} = item.sys;
         const image = item.fields.image.fields.file.url;
         const page = item.page;
-        return {title, price, id, image};
+        return {title, price, id, image, page};
       })
       return products;
     } catch (error){
